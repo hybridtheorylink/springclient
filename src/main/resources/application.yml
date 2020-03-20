@@ -1,0 +1,33 @@
+server:
+  port: 7072
+
+spring:
+  application:
+    name: service-hi
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://47.111.160.164:7070/eureka/eureka/
+eureka:
+  instance:
+    preferIpAddress: true
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: service-registry
+
+app:
+  id: SampleApp
+
+apollo:
+  meta: http://192.168.2.24:8080
+  #cluster: myCluster
+  #cacheDir: /opt/testDir
+  bootstrap:
+    enable: true
+    namespaces: application
+
+env: DEV
+
