@@ -79,7 +79,7 @@ public class SpringclientApplication extends SpringBootServletInitializer {
 
     @PostConstruct
     public void down()  {
-        System.out.println("--------------------------------");
+        System.out.println("-------------------down-------------");
 //        System.out.println(JSON.toJSONString(discoveryClient.getServices()));
 //        DiscoveryManager.getInstance().shutdownComponent();
 
