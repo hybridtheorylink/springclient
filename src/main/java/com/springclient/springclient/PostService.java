@@ -16,7 +16,7 @@ public class PostService implements CommandLineRunner {
     ServiceRegistry serviceRegistry;
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("-----------------after start-------------------------");
+        System.out.println("-----------------after start---------------------------");
         serviceRegistry.setStatus(registration, "DOWN");
     }
 }
